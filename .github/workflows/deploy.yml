@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Get Code
-              run: actions/checkout@v5
+              uses: actions/checkout@v5
             - name: Install Node JS
               uses: actions/setup-node@v6
               with:
@@ -22,7 +22,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Get Code
-              run: actions/checkout@v5
+              uses: actions/checkout@v5
             - name: Install Node JS
               uses: actions/setup-node@v6
               with:
@@ -39,7 +39,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Get Code
-              run: actions/checkout@v5
+              uses: actions/checkout@v5
             - name: Install Node JS
               uses: actions/setup-node@v6
               with:
